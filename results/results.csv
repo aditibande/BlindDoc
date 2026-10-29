@@ -1,0 +1,6 @@
+model,config,plain_acc,quantized_clear_acc,fhe_eval_samples,fhe_acc_on_subset,agreement_with_clear,plain_ms_per_sample,fhe_ms_per_sample,compile_s,keygen_s,bootstraps,bootstrap_key_mb,keyswitch_key_mb
+LogReg,n_bits=4,0.9825,0.9386,114,0.9386,1.0,0.0201,16.42,0.42,0.0,0,0.0,0.0
+LogReg,n_bits=6,0.9825,0.9737,114,0.9737,1.0,0.01145,20.05,0.52,0.0,0,0.0,0.0
+LogReg,n_bits=8,0.9825,0.9825,114,0.9825,1.0,0.00186,15.87,0.36,0.0,0,0.0,0.0
+DecisionTree,depth=3,0.9386,0.9386,20,0.95,1.0,0.00189,1634.17,2.33,9.6,55,894.3,89.2
+DecisionTree,depth=4,0.9474,0.9211,20,0.9,1.0,0.00234,2312.46,2.23,10.82,82,838.7,115.5
